@@ -15,21 +15,21 @@ class BarcodeGanerator extends StatefulWidget {
 
 class _BarcodeGaneratorState extends State<BarcodeGanerator> {
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    getvalue();
-  }
-  Color customColor = Color(0xff8592a1);
-      int i = 0;
-void getvalue()async{
+//   void initState() {
+//     // TODO: implement initState
+//     super.initState();
+//     getvalue();
+//   }
+//   Color customColor = Color(0xff8592a1);
+//       int i = 0;
+// void getvalue()async{
 
-SharedPreferences sp= await SharedPreferences.getInstance();
+// SharedPreferences sp= await SharedPreferences.getInstance();
 
-// List<String> data= sp.getStringList("data").toList();
+// // List<String> data= sp.getStringList("data").toList();
 
-historyList.add(sp.getStringList("data").toString());
-}
+// historyList.add(sp.getStringList("data").toString());
+// }
 
   TextEditingController controller=TextEditingController(); 
   @override
