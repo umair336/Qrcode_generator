@@ -18,8 +18,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      theme: Themes().lightTheme,
-      darkTheme: Themes().darkTheme,
+      // theme: Themes().lightTheme,
+      // darkTheme: Themes().darkTheme,
       debugShowCheckedModeBanner: false,
       home: PrivacyPopUp(),
     );

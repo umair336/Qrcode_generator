@@ -101,7 +101,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                                   onPressed: (){
                                Get.back();
                                   },
-                                  icon: Icon(Icons.backspace,size: 15,),
+                                  icon: Icon(Icons.backspace,size: 10,),
                                    label: Text("Maybe Later")),
                                    SizedBox(width: 10,),
                                       ElevatedButton.icon(
@@ -113,7 +113,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                                     Get.back();
                                 //  Get.to(Scanning_code());
                                   },
-                                  icon: Icon(Icons.forward),
+                                  icon: Icon(Icons.forward,size: 10,),
                                    label: Text("Submit")),
                                                      ],
                               ),

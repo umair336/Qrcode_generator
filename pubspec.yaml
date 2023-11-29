@@ -38,13 +38,11 @@ dependencies:
   get: ^4.6.6
   barcode_widget: ^2.0.4
   flutter_barcode_scanner: ^2.0.0
-  flutter_signin_button: ^2.0.0
   flutter_rating_bar: ^4.0.1
   shared_preferences: ^2.2.2
-
-
- 
-
+  screenshot: ^2.1.0
+  permission_handler: ^11.1.0
+  image_gallery_saver: ^2.0.3
 
 
 dev_dependencies:
